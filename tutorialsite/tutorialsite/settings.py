@@ -58,8 +58,12 @@ WSGI_APPLICATION = 'tutorialsite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'djangotest',
+		'USER':'dkt',
+		'PASSWORD':'dktdkt',
+		'HOST':'localhost',
+		'PORT':'3306'
     }
 }
 
@@ -68,7 +72,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'UTC+8'
 
 USE_I18N = True
 
