@@ -1,5 +1,5 @@
 """
-Django settings for tutorialsite project.
+Django settings for webdkt project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -36,7 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-	'polls',
+	'dtkts',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -49,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'tutorialsite.urls'
+ROOT_URLCONF = 'webdkt.urls'
 
-WSGI_APPLICATION = 'tutorialsite.wsgi.application'
+WSGI_APPLICATION = 'webdkt.wsgi.application'
 
 
 # Database
